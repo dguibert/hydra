@@ -12,7 +12,6 @@ distributable_scripts =				\
   hydra-notify					\
   hydra-send-stats				\
   nix-prefetch-git				\
-  nix-prefetch-bzr				\
   nix-prefetch-hg
 
 bin_SCRIPTS =					\

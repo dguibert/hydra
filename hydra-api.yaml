@@ -540,8 +540,6 @@ components:
           description: The type of this input
           type: string
           enum:
-            - bzr
-            - bzr-checkout
             - bitbucketpulls
             - darcs
             - git

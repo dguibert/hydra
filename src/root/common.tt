@@ -415,7 +415,7 @@ BLOCK renderPager %]
 
 
 BLOCK renderShortEvalInput;
-  IF input.type == "svn" || input.type == "svn-checkout" || input.type == "bzr" || input.type == "bzr-checkout" %]
+  IF input.type == "svn" || input.type == "svn-checkout" %]
     r[% input.revision %]
   [% ELSIF input.type == "git" %]
     <tt>[% input.revision.substr(0, 7) %]</tt>
